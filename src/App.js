@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Javapj from './components/Javapj';
+import Arr from './components/Arr';
+import Alibaba from './components/Alibaba';
+import Statebasics from './components/Statebasics';
+import Ns from './components/Ns';
+import Myname from './components/Myname';
+import Useffect from './components/Useffect';
+import Useffect2 from './components/Useeffect2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Javapj></Javapj>
+      <Arr></Arr> 
+  <Ns></Ns> 
+  <Myname></Myname>
+  <Useffect></Useffect>*/}
+  <Useffect2 />
     </div>
   );
 }
